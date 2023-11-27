@@ -1,0 +1,23 @@
+.header {
+  background-color: #202020;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 5px 0;
+}
+
+.nav-link-active {
+  border-bottom: 2px solid white;
+}

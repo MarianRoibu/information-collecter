@@ -1,0 +1,43 @@
+.video-card {
+  width: 360px; /* Set the width you want for the cards */
+  margin: 16px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video-info {
+  padding: 16px;
+  display: flex;
+  align-items: start;
+}
+
+.channel-image {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.video-text {
+  flex-grow: 1;
+}
+
+.video-text h4 {
+  margin: 0;
+  margin-bottom: 4px;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.video-text p {
+  font-size: 0.875rem;
+  color: #606060;
+}
